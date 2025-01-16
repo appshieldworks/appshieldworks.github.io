@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShieldWorks - Fraud Detection & Custom Software Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <div class="logo">
+        <svg width="180" height="40" viewBox="0 0 180 40">
+          <path d="M20 5L35 20L20 35L5 20L20 5Z" fill="#4A90E2" />
+          <text x="45" y="25" fill="#333" font-family="Arial" font-weight="bold" font-size="20">AppShieldWorks</text>
+        </svg>
+      </div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Fraud Prevention Meets Tailored Software Engineering</h1>
+      <p>Innovative solutions to protect your business and streamline operations with precision-crafted software.</p>
+      <button class="cta-button" onclick="scrollToContact()">Get Started Today!</button>
+    </div>
+    <div class="hero-animation"></div>
+  </header>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>Who We Are</h2>
+      <p>At ShieldWorks, we specialize in delivering cutting-edge technology to combat fraud and build powerful custom software. With years of expertise in fraud prevention and software engineering, we empower businesses to stay ahead of threats and optimize their digital infrastructure. Our mission is to provide reliable, efficient, and tailored solutions that help you succeed in a fast-paced digital world.</p>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>What We Offer</h2>
+      <div class="service-cards">
+        <div class="service-card" data-aos="fade-up">
+          <div class="service-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Fraud Detection Software</h3>
+          <p>Combat fraud with ease using our industry-leading detection tools. Our software uses AI and machine learning to:</p>
+          <ul>
+            <li>Identify suspicious transactions</li>
+            <li>Detect fraudulent patterns</li>
+            <li>Provide real-time alerts</li>
+          </ul>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Software Engineering as a Service</h3>
+          <p>Scale your business with custom software designed to fit your unique needs. Our experienced engineers:</p>
+          <ul>
+            <li>Develop scalable applications</li>
+            <li>Optimize existing systems</li>
+            <li>Ensure top-notch security</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="why-choose">
+    <div class="container">
+      <h2>Why Choose ShieldWorks?</h2>
+      <div class="benefits-grid">
+        <div class="benefit" data-aos="fade-right">
+          <i class="fas fa-puzzle-piece"></i>
+          <h3>Tailored Solutions</h3>
+          <p>No two businesses are the same—neither are our solutions.</p>
+        </div>
+        <div class="benefit" data-aos="fade-right" data-aos-delay="100">
+          <i class="fas fa-star"></i>
+          <h3>Proven Expertise</h3>
+          <p>Trusted by leading companies to deliver results.</p>
+        </div>
+        <div class="benefit" data-aos="fade-right" data-aos-delay="200">
+          <i class="fas fa-robot"></i>
+          <h3>Cutting-Edge Technology</h3>
+          <p>Leveraging AI, machine learning, and best practices.</p>
+        </div>
+        <div class="benefit" data-aos="fade-right" data-aos-delay="300">
+          <i class="fas fa-headset"></i>
+          <h3>Dedicated Support</h3>
+          <p>From concept to launch, we're with you every step.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Ready to Secure and Scale Your Business?</h2>
+      <p>Contact us today to explore how ShieldWorks can protect and transform your operations.</p>
+      <form id="contactForm" onsubmit="handleSubmit(event)">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Tell us about your needs" required></textarea>
+        <button type="submit" class="cta-button">Get in Touch!</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p>Contact Info:</p>
+          <p><i class="fas fa-envelope"></i> info@shieldworks.tech</p>
+          <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+          <p><i class="fas fa-map-marker-alt"></i> New York, NY</p>
+        </div>
+        <div class="social-links">
+          <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 ShieldWorks. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
